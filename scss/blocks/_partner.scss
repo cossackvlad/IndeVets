@@ -1,0 +1,33 @@
+.partner {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        &__item {
+            background: #F4F6F0;
+            border-radius: 5px;
+            padding: 45px 15px;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            column-gap: 15px;
+            &__content {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                &__title {
+                    font-family: Roboto;
+                    font-weight: normal;
+                    font-size: 22px;
+                    line-height: 22px;
+                    color: #8BC441;
+                }
+                &__subtitle {
+                    font-weight: normal;
+                    font-size: 17px;
+                    line-height: 22px;
+                    color: #60C1BD;
+                }
+            }
+        }
+    }
+}
