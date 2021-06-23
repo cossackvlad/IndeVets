@@ -82,10 +82,8 @@
 
     // Partner
     .partner {
-        position: relative;
         &__wrapper {
-            position: absolute;
-            top: -80px;
+            margin-top: -80px;
             padding: 0 60px;
             grid-template-columns: repeat(2, 1fr);
             column-gap: 15px;
