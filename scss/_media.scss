@@ -164,6 +164,28 @@
             }
         }
     }
+
+    // Let's do this
+    .letsdothis {
+        &__wrapper {
+            grid-template-columns: 240px auto;
+            column-gap: 80px;
+            padding: 0 60px;
+            &__content {
+                h3 {
+                    font-size: 30px;
+                    line-height: 36px;
+                    margin-bottom: 60px;
+                }
+                &__block {
+                    a {
+                        display: block;
+                        width: 45%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 1024px) {
@@ -255,6 +277,26 @@
             }
         }
     }
+
+    // Let's do this
+    .letsdothis {
+        &__wrapper {
+            column-gap: 160px;
+            &__content {
+                h3 {
+                    font-size: 50px;
+                    line-height: 58px;
+                }
+                &__block {
+                    a {
+                        width: 190px;
+                        font-size: 20px;
+                        line-height: 27px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 1270px) {
@@ -323,6 +365,23 @@
                 &__a {
                     margin-top: 60px;
                     margin-left: 35px;
+                }
+            }
+        }
+    }
+
+    // Let's do this
+    .letsdothis {
+        &__wrapper {
+            &__content {
+                h3 {
+                    font-size: 55px;
+                    line-height: 64px;
+                }
+                &__block {
+                    a {
+                        width: 240px;
+                    }
                 }
             }
         }
