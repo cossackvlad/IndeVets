@@ -89,6 +89,55 @@
             column-gap: 15px;
         }
     }
+
+    // How Works
+    .title-h2 {
+        font-size: 40px;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+    .subtitle-h2 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .how-works {
+        padding: 100px 0 80px;
+        &__wrapper {
+            padding: 0 60px;
+            h2 {
+                margin-bottom: 100px;
+            }
+            &__block {
+                row-gap: 60px;
+                &__item {
+                    grid-template-columns: 285px auto;
+                    column-gap: 50px;
+                    &__img {
+                        margin: 0;
+                    }
+                    &__content {
+                        span {
+                            font-size: 20px;
+                            line-height: 20px;
+                        }
+                        h3 {
+                            font-size: 30px;
+                            line-height: 35px;
+                        }
+                        p {
+                            font-size: 16px;
+                            line-height: 29px;
+                        }
+                    }
+                }
+                &__resorve {
+                    display: grid;
+                    grid-template-columns: auto 285px;
+                    column-gap: 50px;
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 1024px) {
@@ -148,6 +197,38 @@
             }
         }
     }
+
+    // How Works
+    .title-h2 {
+        font-size: 55px;
+        line-height: 55px;
+    }
+    .how-works {
+        padding: 170px 0 80px;
+        &__wrapper {
+            &__block {
+                row-gap: 90px;
+                &__item {
+                    padding: 0 60px;
+                    column-gap: 130px;
+                    &__content {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        h3 {
+                            font-size: 40px;
+                            line-height: 47px;
+                        }
+                    }
+                }
+                &__resorve {
+                    column-gap: 80px;
+                    padding: 0 60px;
+
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 1270px) {
@@ -178,6 +259,17 @@
             &__item {
                 padding-right: 85px;
                 column-gap: 45px;
+            }
+        }
+    }
+
+    // How Works
+    .how-works {
+        &__wrapper {
+            &__block {
+                &__resorve {
+                    column-gap: 170px;
+                }
             }
         }
     }

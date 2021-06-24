@@ -20,6 +20,21 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0 auto;
     padding: 0 10px;
 }
+.title-h2 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #284854;
+    margin-top: 5px;
+}
+.subtitle-h2 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #60C1BD;
+}
 .btn {
     font-weight: normal;
     font-size: 14px;
@@ -38,5 +53,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 @import 'blocks/header';
 @import 'blocks/partner';
+@import 'blocks/how-works';
 
 @import 'media';
