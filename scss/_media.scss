@@ -138,6 +138,32 @@
             }
         }
     }
+
+    // Our mission
+    .our-mission {
+        padding: 80px 0 100px;
+        &__wrapper {
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 50px;
+            padding: 0 60px;
+            &__img {
+                img {
+                    width: 100%;
+                }
+            }
+            &__content {
+                p {
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+                &__a {
+                    margin-top: 50px;
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 1024px) {
@@ -269,6 +295,34 @@
             &__block {
                 &__resorve {
                     column-gap: 170px;
+                }
+            }
+        }
+    }
+
+    // Our mission
+    .our-mission {
+        padding: 80px 0 130px;
+        &__wrapper {
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 110px;
+            &__img {
+                img {
+                    width: 100%;
+                }
+            }
+            &__content {
+                h2 {
+                    margin-bottom: 40px;
+                }
+                p {
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 32px;
+                }
+                &__a {
+                    margin-top: 60px;
+                    margin-left: 35px;
                 }
             }
         }
